@@ -12,7 +12,7 @@
 
 # C# Basic Syntax #
 
-ARRAYS
+ARRAYS - uses .Length
 Declared and with unknown size
 	float[] numbers;
 
@@ -22,5 +22,16 @@ Have to declare size because we are initalizing the array.
 We can also init it with data by using the brackets. *important* We do not need to declare the size if we init it with data.
 	float[] numbers = new numbers[2] {5.3, 2.2};
 
+LOOPING ARRAYS & LISTS WITH FOREACH
+Use explicit type when using foreach i.e float, string.
+	foreach(float number in numbers)
+	{
+		result += number;
+	}
 
+LISTS - uses .Count
+Lists requires you to use a type argument when declaring it,
+i.e float, double, or a custom type.
+	List<float> grades = new List<float>();
 
+STRINGS
