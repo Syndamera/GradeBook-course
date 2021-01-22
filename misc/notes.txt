@@ -1,1 +1,6 @@
+# git commands #
+	git add . = add new files
+	git commit -m "comment"
+	git push origin master
+
 # c# notes #
