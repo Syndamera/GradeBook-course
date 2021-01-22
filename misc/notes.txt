@@ -1,18 +1,18 @@
-# Git Basic Commands #
+###### Git Basic Commands ######
 	git add . = add new files
 	git commit -m "comment"
 	git push origin master
 
-# C# General Notes #
+###### C# General Notes ######
 .NET contains the following. Only for Windows.
 	CLR Common Language Runtime
 	FCL Framework Class Library
 .NET Core is for all platforms.
 	Linux, Mac, Windows, ARM
 
-# C# Basic Syntax #
+###### C# Basic Syntax ######
 
-ARRAYS - uses .Length
+###### ARRAYS - uses .Length ######
 Declared and with unknown size
 	float[] numbers;
 
@@ -22,16 +22,30 @@ Have to declare size because we are initalizing the array.
 We can also init it with data by using the brackets. *important* We do not need to declare the size if we init it with data.
 	float[] numbers = new numbers[2] {5.3, 2.2};
 
-LOOPING ARRAYS & LISTS WITH FOREACH
-Use explicit type when using foreach i.e float, string.
+###### LISTS - uses .Count ######
+Lists requires you to use a type argument when declaring it,
+i.e float, double, or a custom type.
+	List<float> grades = new List<float>();
+
+###### LOOPING ARRAYS & LISTS WITH FOREACH ######
+Use explicit type when using foreach e.g float, string.
 	foreach(float number in numbers)
 	{
 		result += number;
 	}
 
-LISTS - uses .Count
-Lists requires you to use a type argument when declaring it,
-i.e float, double, or a custom type.
-	List<float> grades = new List<float>();
+###### STRINGS ######
+Use $ infront to format text and variables.
+More options below for different string formats.
+https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
+	WriteLine($"Hello {name}");
+Display the PI number with 3 digits.
+	WriteLine($"PI is {PI:N3}");
 
-STRINGS
+*** string excersise ***
+a. user input any number and converts decimal numbers to hexadecimal and print it out in the terminal window.
+b. convert any character (0-9, a-z, A-Z) to hexadecimal
+by using the information from the ascii table.
+c. convert decimal and/or hexadecimal to binary number.
+
+##### CLASSES #####
