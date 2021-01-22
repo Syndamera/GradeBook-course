@@ -1,6 +1,26 @@
-# git commands #
+# Git Basic Commands #
 	git add . = add new files
 	git commit -m "comment"
 	git push origin master
 
-# c# notes #
+# C# General Notes #
+.NET contains the following. Only for Windows.
+	CLR Common Language Runtime
+	FCL Framework Class Library
+.NET Core is for all platforms.
+	Linux, Mac, Windows, ARM
+
+# C# Basic Syntax #
+
+ARRAYS
+Declared and with unknown size
+	float[] numbers;
+
+Have to declare size because we are initalizing the array.
+	float[] numbers = new float[5]; 
+
+We can also init it with data by using the brackets. *important* We do not need to declare the size if we init it with data.
+	float[] numbers = new numbers[2] {5.3, 2.2};
+
+
+
