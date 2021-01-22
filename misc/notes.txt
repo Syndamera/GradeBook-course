@@ -49,3 +49,18 @@ by using the information from the ascii table.
 c. convert decimal and/or hexadecimal to binary number.
 
 ##### CLASSES #####
+
+
+
+
+*** math excersise ***
+Youtube & Amazon affiliate income application.
+CPM is $ per 1000 clicks, average should land around 1.8-2$.
+a. Calculate CPM = estimated revenue / views * 1000
+	Note: Youtube takes 45% of the CPM in the backend views
+	but not on Your estimated value.
+b. Tax deduction for Sweden.
+c. Amazon affiliate income estimates.
+d. Patreon income
+e. Sponsorship
+f. Merch shop
