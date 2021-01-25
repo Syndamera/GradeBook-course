@@ -45,10 +45,37 @@ Display the PI number with 3 digits.
 *** string excersise ***
 a. user input any number and converts decimal numbers to hexadecimal and print it out in the terminal window.
 b. convert any character (0-9, a-z, A-Z) to hexadecimal
-by using the information from the ascii table.
+   by using the information from the ascii table.
 c. convert decimal and/or hexadecimal to binary number.
 
 ##### CLASSES #####
+Remember to use namespaces to avoid global namespaces.
+Usally the same name as the program and/or class.
+Think about what the behaviour(s) of the class is e.g.
+	book.AddGrade(74.1);
+	book.ChangeGrade(x, 64.3);
+	book.Count; << return the total of all current grades in the book in decimal number.
+Procede to code the method after that.
+
+Field definitions
+When declaring fields they can not use the "var" keyword.
+	List<float> grades = new List<float>();
+	float numberOfBooks;
+
+Constructor
+With a explicit constructor. Have to have the same name as the class.
+Now we can declare a list in the field and initsilize it in the constructor for each object.
+	List<float> grades;
+	public Book()
+	{
+		grades = new List<float>();
+	}
+
+We can also add required parameters for our constructor of the object.
+	public Book()
+	{
+		
+	}
 
 
 
