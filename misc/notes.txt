@@ -42,7 +42,7 @@ https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-for
 Display the PI number with 3 digits.
 	WriteLine($"PI is {PI:N3}");
 
-*** string excersise ***
+*** string & math excersise ***
 a. user input any number and converts decimal numbers to hexadecimal and print it out in the terminal window.
 b. convert any character (0-9, a-z, A-Z) to hexadecimal
    by using the information from the ascii table.
@@ -72,13 +72,35 @@ Now we can declare a list in the field and initsilize it in the constructor for 
 	}
 
 We can also add required parameters for our constructor of the object.
-	public Book()
+
+	private string name;
+	private List<float> grades;
+
+	public Book(string name)
 	{
-		
+		grades = new List<float>();
+		this.name = name; // this access the field variable
 	}
 
+Static
+Instance member of a class is non-static.
+Instance field associate with the class and are non-static.
+Static members are associate by the type not the instance reference.
 
+	Program.Main(args) is valid for a static method.
+	var p = new Program(); does not work for static as its instantiated and not refered by type.
 
+	A non-static class for example class Book:
+		var book = new Book();
+		book.AddGrade(55); is valid.
+		Book.AddGrade(55); is not valid as its trying to access by type and not instantiaded.
+
+############
+### MATH ###
+############
+
+Intressting math functions.
+	a. Math.Min and Math.Max > returns the lowest or highest from two numbers.
 
 *** math excersise ***
 Youtube & Amazon affiliate income application.
